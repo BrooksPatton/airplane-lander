@@ -1,0 +1,49 @@
+Description:
+☐ Different colored planes fly in the sky above an airport. There are three different sizes of planes, and three different sizes of landing strips. The different sizes correspond to different colored planes and the airstrips. The Player must click on a plane, and then the landing strip that they want the plane to land at. The planes must land on a strip that can handle their size or larger. Once landed, the plan will take some time to get off the runway, and until then the runway is not available for planes to land on it. The player loses when a plane runs out of fuel and crashes.
+  
+Technologies:
+ ☐ CSS animations
+ ☐ Collission detection
+  
+Classes:
+ ☐ Airport
+   ☐ Runways
+   ☐ Planes
+   ☐ Terminal
+ ☐ Plane
+   ☐ Location
+   ☐ Fuel
+   ☐ Passengers
+ ☐ Runway
+   ☐ Status
+ ☐ Player
+   ☐ Level
+   ☐ Passengers landed
+ ☐ Game
+   ☐ Level 1
+
+Roadmap Alpha:
+ ✔ Create UI @done (14-07-14 16:33)
+ ✔ Airplane appears on the screen @done (14-07-14 16:34)
+ ✔ Airplane flies accross the screen @done (14-07-14 17:05)
+ ✔ Airplane turns around and circles the airport @done (14-07-15 08:17)
+ ✔ Airplane is selectable @done (14-07-15 10:07)
+ ✔ Airplane can be landed at the appropriate runway @done (14-07-15 11:43)
+ ✔ Airplane animates its landing @done (14-07-15 11:43)
+ ✔ Score is incremented @done (14-07-15 16:31)
+ ✔ Airplanes have fuel @done (14-07-15 17:33)
+ ✔ Airplanes use fuel flying @done (14-07-15 17:33)
+ ✔ Airplanes can run out of fuel @done (14-07-15 17:33)
+ ✔ Game over at end of fuel @done (14-07-16 10:17)
+ ✔ Animate crash @done (14-07-16 09:19)
+ ✔ Feedback system @done (14-07-16 10:33)
+
+ Roadmap Beta:
+  ✔ Selected planes have a white border around them while they are selected. @done (14-07-16 10:34)
+  ✔ Planes land on runway, not next to it @done (14-07-16 10:53)
+  ☐ Missions
+  ☐ Local storage to save points
+  ✔ Players are unable to play the game after the game ends @done (14-07-16 11:27)
+ ✔ Airplanes can collide with eachother @done (14-07-16 15:15)
+ ✔ Animate crash @done (14-07-16 15:15)
+ ✔ Fire shouldn't be moveable @done (14-07-16 11:37)

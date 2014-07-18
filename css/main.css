@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.sky {
+  height: 75%;
+}
+
+.ground {
+  height: 25%;
+  max-height: 25%;
+  overflow: hidden;
+}
+
+.runway {
+  margin-top: 2%;
+  transform: scaleZ(10deg);
+}
+
+.runway-medium img {
+  width: 150px;
+}
+
+.runway-small img {
+  width: 100px;
+}
+
+.plane {
+  z-index: 10;
+}
+
+.game-over {
+  text-align: center;
+  padding: 20px;
+  width: 25em;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  z-index: 100;
+}
+
+.launcher {
+  text-align: center;
+  padding: 20px;
+  width: 40em;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  z-index: 100;
+}
+
+.worldScores {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  overflow: hidden;
+  z-index: 100;
+  width: 75%;
+}
+
+.bg-peter-rivers {
+  background: #3498db;
+}
+
+.bg-nephritis {
+  background: #27ae60;
+}
+
+.bg-clouds {
+  background: #ecf0f1;
+}
+
+.icon-small {
+  font-size: 1em;
+}
+
+.icon-medium {
+  font-size: 2em;
+}
+
+.icon-large {
+  font-size: 3em;
+}
+
+.selected {
+  border: 1px solid #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.red {
+  color: red;
+}
+
+.plane {
+  cursor: pointer;
+}
+
+.fuel-half-left {
+  color: yellow;
+}
+
+.fuel-quarter-left {
+  color: red;
+}
